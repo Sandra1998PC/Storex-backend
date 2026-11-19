@@ -4,7 +4,7 @@ const express = require("express")
 const routes = require("./Routes/allRoutes")
 
 const storeXServer = express()
-require('./Config/dbConnection')
+require('./config/dbConnection')
 
 storeXServer.use(cors())
 storeXServer.use(express.json())
